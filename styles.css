@@ -1,0 +1,42 @@
+
+.header {
+    padding:8px;
+    background-color: black;
+}
+
+.border {
+    padding: 8px;
+}
+
+.container {
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    background-color: gray;
+}
+
+.logo, .social{
+    padding-left: 10px;
+    margin: 5px;
+    flex-basis: 25%;
+    background-color: red;
+}
+
+.nav{
+    padding-left: 10px;
+    margin: 5px;
+    flex-basis: 50%;
+    background-color: red;
+}
+
+.container2 {
+    display: flex;
+    padding: 15px;
+    background-color: orange;
+}
+
+.banner {
+    padding-left: 10px;
+    background-color: yellow;
+    flex-basis: 100%;
+}
