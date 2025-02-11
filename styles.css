@@ -116,6 +116,7 @@ footer p {
    padding-left: 10px;
 }
 
+
 /*__________________________________TABLETA________________________________________*/
 @media (max-width: 768px) {
     .container{
@@ -135,6 +136,10 @@ footer p {
         background-color: black;
         width: auto;
     }
+    body {
+        background-color: seagreen;
+    }
+    
 }
 
 /*____________________________________MOVIL________________________________________*/
@@ -142,5 +147,8 @@ footer p {
     .container3 {
         display: flex;
         flex-direction: column;
+    }
+    body {
+        background-color: rgb(251, 0, 255);
     }
 }
