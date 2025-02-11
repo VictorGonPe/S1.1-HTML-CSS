@@ -1,15 +1,15 @@
 
-.header {
-    padding:8px;
+header {
+    padding:10px;
     background-color: black;
 }
 
 .border {
-    padding: 8px;
+    padding: 10px;
+    flex-basis: 100%;
 }
 
 .container {
-    justify-content: space-between;
     display: flex;
     padding: 15px;
     background-color: gray;
@@ -24,14 +24,14 @@
 
 .nav{
     padding-left: 10px;
-    margin: 5px;
+    margin: 5px 15px 5px 15px;
     flex-basis: 50%;
     background-color: red;
 }
 
 .container2 {
     display: flex;
-    padding: 15px;
+    padding: 20px;
     background-color: orange;
 }
 
@@ -39,4 +39,81 @@
     padding-left: 10px;
     background-color: yellow;
     flex-basis: 100%;
+}
+
+/*__________________________________MAIN________________________________________*/
+.contenido {
+    display: flex; 
+    align-items: stretch; /* Hace que ambos ocupen la misma altura ???? */
+    margin-top: 15px;
+}
+
+.articulos {
+    
+    padding: 20px;
+    background-color: black;
+    width: 60%;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    padding: 15px;
+    background-color: gray;
+}
+
+
+.container3 div {
+    background-color: blue;
+    padding-left: 10px;
+}
+
+
+.container3 div:last-child{
+    grid-column: span 2; 
+    background-color: rgb(94, 197, 252);
+    padding-left: 10px;
+}
+
+.publicidad {
+    display: flex;
+    flex-grow: 1; /*Se expanden a la misma altura*/
+    padding: 20px 20px 20px 0px;
+    background-color: black;
+    width: 30%;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1; 
+    padding: 15px;
+    background-color: red;
+    gap: 15px;
+}
+
+.container4 div {
+    padding-left: 10px;
+    background-color: yellow;
+    
+}
+
+/*__________________________________FOOTER________________________________________*/
+
+footer {
+    margin-top: 15px;
+    padding:20px;
+    background-color: black;
+}
+
+.footer{
+    background-color: rgb(250, 250, 115);
+    display:flex;
+}
+
+footer p {
+   padding-left: 10px;
 }
