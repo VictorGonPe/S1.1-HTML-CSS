@@ -8,18 +8,17 @@
     display: flex;
     padding: 15px;
     background-color: gray;
+    gap: 15px;
 }
 
 .logo, .social{
     padding-left: 10px;
-    margin: 5px;
     flex-basis: 25%;
     background-color: red;
 }
 
 .nav{
     padding-left: 10px;
-    margin: 5px 15px 5px 15px;
     flex-basis: 50%;
     background-color: red;
 }
@@ -43,16 +42,15 @@
 
 /*__________________________________MAIN________________________________________*/
 .contenido {
-    display: flex; 
+    display: flex;
     align-items: stretch; /* Hace que ambos ocupen la misma altura ???? */
     margin-top: 15px;
 }
 
 .articulos {
-    
     padding: 20px;
     background-color: black;
-    width: 60%;
+    width: 70%;
 }
 
 .container3 {
@@ -82,7 +80,7 @@
     flex-grow: 1; /*Se expanden a la misma altura*/
     padding: 20px 20px 20px 0px;
     background-color: black;
-    width: 30%;
+    width: 20%;
 }
 
 .container4 {
@@ -119,12 +117,27 @@ footer p {
 }
 
 /*__________________________________TABLETA________________________________________*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
 
+    .contenido {
+        flex-direction: column;
+    }
 
+    .articulos {
+        width: auto;
+    }
+
+    .publicidad {
+        padding: 0px 20px 20px 20px;
+        background-color: black;
+        width: auto;
+    }
 }
 
 /*____________________________________MOVIL________________________________________*/
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
 }
