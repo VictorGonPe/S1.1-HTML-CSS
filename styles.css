@@ -1,4 +1,3 @@
-
 .header1 {
     padding:20px;
     background-color: black;
@@ -15,6 +14,21 @@
     padding-left: 10px;
     flex-basis: 25%;
     background-color: red;
+}
+
+@keyframes animationLogo {
+    100% {
+        background-color: #ff0080;
+        transform: scale(1.1);
+    }
+  }
+
+.logo:hover {
+    animation-name: animationLogo;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    
+    
 }
 
 .nav{
