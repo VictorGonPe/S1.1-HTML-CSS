@@ -26,9 +26,7 @@
 .logo:hover {
     animation-name: animationLogo;
     animation-duration: 0.2s;
-    animation-fill-mode: forwards;
-    
-    
+    animation-fill-mode: forwards; /*Se mantiene activo mientras hover*/
 }
 
 .nav{
@@ -68,9 +66,8 @@
 }
 
 .container3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 15px;
     background-color: gray;
@@ -78,13 +75,14 @@
 
 
 .container3 div {
+    flex: 1 1 45%; /*flex-grow, flex-shrink, flex-basis*/
     background-color: blue;
     padding-left: 10px;
 }
 
 
 .container3 div:last-child{
-    grid-column: span 2; 
+    flex: 1 1 100%;
     background-color: rgb(94, 197, 252);
     padding-left: 10px;
 }
