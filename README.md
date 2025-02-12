@@ -1,11 +1,11 @@
 # S1.1-HTML-CSS
 
-##Descripción del sprint
+## Descripción del sprint
 
 Realización de la estructura de una web responsive para escritorio, tableta y dispositivo móvil. 
 
 
-##Tecnologías y herramientas utilitzadas
+## Tecnologías y herramientas utilitzadas
 
 - **HTML y CSS**(flexbox)
 - **Documentación del temario 1.1**(IT Academy)
@@ -13,13 +13,13 @@ Realización de la estructura de una web responsive para escritorio, tableta y d
 - **ChatGpt**
 
 
-##Requisitos
+## Requisitos
 
 - **Navegador moderno**: Chrome, Firefox, Safari, Edge.
 - **Editor de código**: VS Code, Sublime Text. (Editar o visualizar el código) 
 - **Conocimientos básicos HTML y CSS.**
 
-#Instalación
+## Instalación
 
 1. Clonar el proyecto
 git clone https://github.com/VictorGonPe/S1.1-HTML-CSS.git
