@@ -25,6 +25,8 @@ Realización de la estructura de una web responsive para escritorio, tableta y d
 
 ```bash
 git clone https://github.com/VictorGonPe/S1.1-HTML-CSS.git
+```
+```bash
 cd S1.1-HTML-CSS
 ```
 
