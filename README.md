@@ -22,12 +22,15 @@ Realización de la estructura de una web responsive para escritorio, tableta y d
 ## Instalación
 
 1. Clonar el proyecto
+
+```bash
 git clone https://github.com/VictorGonPe/S1.1-HTML-CSS.git
 cd S1.1-HTML-CSS
+```
 
 2. Abrir el proyecto en el editor de código.
 
-##Ejecución
+## Ejecución
 
 **Opción 1**: Abrir directamente desde el navegador.
 - Accede a la carpeta del proyecto y abrir directamente index.html.
